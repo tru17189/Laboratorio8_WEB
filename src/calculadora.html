@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Calculadora</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:600,700" rel="stylesheet">
+        <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+        <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    </head> 
+    <body>
+        <script src="script.js"></script>
+                   
+        <div id="calculator" class="calculator">
+            <p id="screen" class="screen"></p>
+            <img class="img" src="../Assets/background.png" />
+            <table id="table1">
+                <tr>
+                    <th><button type="button" onclick="one()" value="1" class="numbers">1</button></th>
+                    <th><button type="button" onclick="two()" value="2" class="numbers">2</button></th>
+                    <th><button type="button" onclick="three()" value="3" class="numbers">3</button></th>
+                    <th><button type="button" onclick="cero()" value="3" class="numbers">0</button></th>
+                    <th><button type="button" onclick="point()" value="." class="numbers">.</button></th>
+                </tr>
+                <tr>
+                    <th><button type="button" onclick="four()" value="4" class="numbers">4</button></th>
+                    <th><button type="button" onclick="five()" value="5" class="numbers">5</button></th>
+                    <th><button type="button" onclick="six()" value="6" class="numbers">6</button></th>
+                    <th><button type="button" onclick="ac()" value="8" class="numbers">ac</button></th>
+                </tr>
+                <tr>
+                    <th><button type="button" onclick="seven()" value="7" class="numbers">7</button></th>
+                    <th><button type="button" onclick="eight()" value="8" class="numbers">8</button></th>
+                    <th><button type="button" onclick="nine()" value="9" class="numbers">9</button></th>
+                    <th><button type="button" onclick="equals()" value="9" class="numbers">=</button></th>
+                </tr>
+                <tr>
+                    <th><button type="button" onclick="pluss()" value="7" class="numbers">+</button></th>
+                    <th><button type="button" onclick="less()" value="8" class="numbers">-</button></th>
+                    <th><button type="button" onclick="divided()" value="9" class="numbers">/</button></th>
+                    <th><button type="button" onclick="multiply()" value="7" class="numbers">*</button></th>
+                </tr>              
+            </table>  
+        </div>        
+    </body>
+</html>

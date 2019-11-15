@@ -1,0 +1,56 @@
+body{
+    background-image: url("../Assets/madera.jpg");
+}
+
+.calculator{
+    position: absolute;
+    left: 25%;
+    background-image: url("../Assets/red.jpg");
+    height: 60%;
+    width: 40%;
+}
+
+.screen {
+    position: relative;
+    top: -70px;
+    left: 30px;
+    color: white;
+    background: #17783b;
+    flex-grow: 1;
+    font-size: 87px;
+    font-weight: 100;
+    height: 85px;
+    width: 15cm;
+    line-height: 67px;
+    padding-right: 20px;
+    padding-top: 40px;
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+  }
+
+.img{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    width: 60%;
+    height: 60%;
+}
+
+.numbers{
+    position: absolute;
+    background-image: url("white.jpg");
+    border-radius: 100%;
+    width: 13%;
+    font-size: 35px;
+    font-family: 'Gill Sans MT';
+}
+
+#table1 {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    border-collapse: separate;
+    border-spacing: 80px 70px;
+  }
+  
+
